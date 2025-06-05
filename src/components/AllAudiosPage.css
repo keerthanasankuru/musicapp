@@ -1,0 +1,58 @@
+.all-audios-page {
+  max-width: 800px;
+  margin: 50px auto;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+.category-section {
+  margin-bottom: 30px;
+}
+
+.category-section h2 {
+  color: #4b244a;
+  border-bottom: 2px solid #cdb4db;
+  padding-bottom: 5px;
+}
+
+.category-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.audio-item {
+  margin: 15px 0;
+  border-bottom: 1px dashed #ddd;
+  padding-bottom: 10px;
+}
+
+.audio-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.audio-link {
+  text-decoration: none;
+  color: #5a3e36;
+  font-size: 20px;
+  min-width: 200px; /* This will align all audio players properly! */
+}
+
+.audio-link:hover {
+  color: #b8c0ff;
+}
+
+.go-to-link {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.go-to-link a {
+  text-decoration: none;
+  color: #444;
+}
+
+.go-to-link a:hover {
+  color: #b8c0ff;
+}

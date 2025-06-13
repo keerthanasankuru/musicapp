@@ -5,8 +5,9 @@ const audioData = [
     name: 'Rama Rama Rameyathi',
     audio: '/audio/ramaramethi.opus',
     category: 'slokas',
-    text: `O soi rama rama rameythi
-Sahasra nama tattulyam
+    text: `Sri rama rama rameythi
+    ramey ramey manoramey
+Sahasra nama tatthulyam
 Sama naama varananey`
   },
   {
@@ -14,7 +15,7 @@ Sama naama varananey`
     audio: '/audio/karagre.opus',
     category: 'slokas',
     text: `Karagre vasathey lakshmi
-Ara madhey saraswathi
+Kara madhey saraswathi
 Kara muley Sthitha bhramha
 Prabhathey kara darshanam`
   },
@@ -22,70 +23,67 @@ Prabhathey kara darshanam`
     name: 'Tulasi Sloka',
     audio: '/audio/tulasisree.opus',
     category: 'slokas',
-    text: `Tulasi soi Sakhi Subhey
-Papa haarini Punya dey
-Riamastey naara danuthey namo priye.`
+    text: `Tulasi sri Sakhi Subhey
+Papa haarini Punyadhey
+Namasthe naara dhanuthey namo naarayana priye.`
   },
   {
     name: 'Vakratunda Mahakaya',
     audio: '/audio/vakrathunda.opus',
     category: 'slokas',
-    text: `Vakrothunda mahukaya
+    text: `Vakrathunda mahukaya
 Surya Koti Samaprabha
-Nirvignam Kurume deva
-Sarva Karyeshu Sarvada.`
+Nirvignam Kurumee dheva
+Sarva Kaaryeshu Sarvada.`
   },
   {
     name: 'Hare Rama Hare Krishna',
     audio: '/audio/harerama.opus',
     category: 'slokas',
-    text: `Hare Rama Hare Rama
-Rama Rama Hare Hare
-Hare Krishna Hare Krishna
-Krishna Krishna Hare Hare`
+    text: `Harey Raama Harey Raama
+Raama Raama Harey Harey
+Harey Krishna Harey Krishna
+Krishna Krishna Harey Harey`
   },
   {
     name: 'Saraswati Sloka',
     audio: '/audio/saraswati.opus',
     category: 'slokas',
     text: `Saraswathi namastubhyam
-Varadey kama rupini
-Vidhyaram Karishyami
-Sidhir bhavathu mey sadaa`
+Varadey kaama rupini
+Vidhya rambam Karishyaami
+Siddhir bhavathu meysadhaa`
   },
   {
     name: 'Twameva Mata',
     audio: '/audio/twameva.opus',
     category: 'slokas',
-    text: `Twamewa maata cha pitha Twamewa
-Twamewa bandhu cha sakha Twamewa
-Twamewa Vidhya draviram Twamewa
-Twamewa Sarvam mama deva deva`
+    text: `Twamewa maatha chapitha Twamewa
+Twamewa bandhu chasaka Twamewa
+Twamewa Vidhya dhraviram Twamewa
+Twamewa Sarvam mama dheva dheva`
   },
   {
     name: 'Krishnamudu Songs (Haayi, Veedhi, Raadha Ninnu)',
     audio: ['/audio/hayee.opus', '/audio/veedhiveedhi.opus','/audio/raadhaninnu.opus'],
     category: 'songs',
     text: `🎵 Haayi Haayi:
-Haayi Haayi Haay, gokula baala
-Haay gokula baala gopala...
+Haayi Haayi Haayi, gokula baala Haayi
+gokula baala gopala...
 Aatalaadi alasinavo
 Aatalaadi alasinavo
-Nidura pogadaraa
+Nidura pogadaraa ||Haayi||
 
 🎵 Veedhi Veedhi:
 Veedhi veedhi tirigi tirigi
-drsti takenura
-Lokulella veeyi kalla ninnuchuchudura
-Ich padba ninnu chankarethi manda kegenu ra
-Kallu mayunga avedo kaluvarinthaye ye...
-Lala bosi jola padeda
-Nidura boga dara
+drsti takenura  ||2||
+Lokulella veeyi kalla ninnuchuchudura ||Haayi||
+
 
 🎵 Raadha Ninnu Choodaga:
-Raadha ninnu choodaga radhaku neeve cheli
-Aadara madhuramai, madhuramadhuramuga
-Raadha ninnu choodaga, gopala bhavamu techaga`
+Raadha ninnu chankanetthi mandha kegenu raa... 
+Kallu muyanga adhedho Kalavarinthaaye, ye.......
+laala bhosi joola paadedha nidhurabo gadhara ||Haayi||`
   },
   {
     name: 'Annamacharya Keerthana',
@@ -94,16 +92,16 @@ Raadha ninnu choodaga, gopala bhavamu techaga`
     text: `🎵 Annamacharya Keerthanalu:
 
 ☆Pallavi:
- Vedukundhaama Vedukundhaama
-Vedukundhaama Venkata Giri Venkateswaruni
+ Vedukundhaama Vedukundhaama Vedukundhaama 
+ Venkata Giri Venkateswaruni
 
 Charanam1:
-Aamati mrokkula vaade aadhi dhevude voodu
-Thomali palypalavaade dhuritha dhurude vaadu vedu
+Aamati mrokkula vaade aadhi dhevude voodu ||2||
+Thomali palypalavaade dhuritha dhurude vaadu ||vedu||
 
 Charanam2:
-vaddi kaasula vaadey vana janabhoodey vaadu
-Puttu godraallaku biddanichey Govindhudey`
+vaddi kaasula vaadey vana janabhoodey vaadu ||2||
+Puttu godraallaku biddanichey Govindhudey` ||vedu||
   },
   
 

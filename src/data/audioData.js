@@ -101,7 +101,7 @@ Thomali palypalavaade dhuritha dhurude vaadu ||vedu||
 
 Charanam2:
 vaddi kaasula vaadey vana janabhoodey vaadu ||2||
-Puttu godraallaku biddanichey Govindhudey` ||vedu||
+Puttu godraallaku biddanichey Govindhudey  ||vedu||`
   },
   
 

@@ -24,16 +24,34 @@ const AllAudiosPage = () => {
                 <li key={item.name} className="audio-item">
                   <div className="audio-info">
                     <span className="audio-link">{item.name}</span>
-                    <audio controls>
-                      <source src={item.audio} type="audio/ogg" />
-                      <source src={item.audio} type="audio/opus" />
-                      Your browser does not support the audio element.
-                    </audio>
+
+                    {/* 🎧 Handle both single and multiple audios */}
+                    {Array.isArray(item.audio) ? (
+                      item.audio.map((src, index) => (
+                        <div key={index} style={{ margin: '5px 0' }}>
+                          <p style={{ marginBottom: '5px', fontSize: '14px', color: '#555' }}>
+                            {['Pallavi', 'Charanam 1', 'Charanam 2'][index] || `Part ${index + 1}`}
+                          </p>
+                          <audio controls>
+                            <source src={src} type="audio/ogg" />
+                            <source src={src} type="audio/opus" />
+                            Your browser does not support the audio element.
+                          </audio>
+                        </div>
+                      ))
+                    ) : (
+                      <audio controls>
+                        <source src={item.audio} type="audio/ogg" />
+                        <source src={item.audio} type="audio/opus" />
+                        Your browser does not support the audio element.
+                      </audio>
+                    )}
+
                     <Link
                       to={`/audio/${item.category}/${encodeURIComponent(item.name)}`}
                       className="label-link"
                     >
-                      Text
+                      Lyrics
                     </Link>
                   </div>
                 </li>

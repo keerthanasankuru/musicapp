@@ -1,52 +1,35 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './CategoryPage.css';
+import audioData from '../data/audioData';
 
-const categories = {
-  slokas: [
-    'Karagre',
-    'Tulasi Sree',
-    'Twameva',
-    'Vakrathunda',
-    'Vedukondama',
-    'Veedhi Veedhi',
-    'Saraswati'
-  ],
-  songs: [
-    'Harerama',
-    'Hayee',
-    'Raadhaninnu'
-  ],
-  swaras: [
-    '3 Swaram',
-    'Swaram',
-    'Swaram2',
-    'Swaram3',
-    'Swaram4'
-  ]
-};
+const groupedData = audioData.reduce((acc, item) => {
+  acc[item.category] = acc[item.category] || [];
+  acc[item.category].push(item);
+  return acc;
+}, {});
 
 const CategoryPage = () => {
   return (
     <div className="category-page">
-      <div className="category-buttons">
-        {Object.keys(categories).map((category) => (
-          <div key={category} className="category-section">
-            <button className="category-button">
-              {category.charAt(0).toUpperCase() + category.slice(1)}
-            </button>
-            {/* Always show subcategory list */}
-            <div className="subcategory-list">
-              {categories[category].map((item) => (
-                <Link
-                  key={item}
-                  to={`/audio/${category}/${item}`}
-                  className="subcategory-item"
-                >
-                  {item}
-                </Link>
+      <h1>🎵 Audio Categories</h1>
+
+      <div className="category-container">
+        {Object.keys(groupedData).map((category) => (
+          <div key={category} className="category-box">
+            <h2 className="category-title">{category.charAt(0).toUpperCase() + category.slice(1)}</h2>
+            <ul className="subcategory-list">
+              {groupedData[category].map((item) => (
+                <li key={item.name}>
+                  <Link
+                    to={`/audio/${item.category}/${encodeURIComponent(item.name)}`}
+                    className="subcategory-item"
+                  >
+                    {item.name}
+                  </Link>
+                </li>
               ))}
-            </div>
+            </ul>
           </div>
         ))}
       </div>

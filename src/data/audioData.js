@@ -11,6 +11,16 @@ Sahasra nama tatthulyam
 Sama naama varananey`
   },
   {
+    name: ' Gnanananda',
+    audio: '/audio/gnana.opus',
+    category: 'slokas',
+    text: `Gnanananda mayam devam Nirmala
+
+Spatika Krithin adharam Sarda vidhyanam
+
+hayagriva mupasmahey`
+  },
+  {
     name: 'Karagre Vasate Lakshmi',
     audio: '/audio/karagre.opus',
     category: 'slokas',
@@ -18,6 +28,15 @@ Sama naama varananey`
 Kara madhey saraswathi
 Kara muley Sthitha bhramha
 Prabhathey kara darshanam`
+  },
+  {
+    name: 'Sarva mangala',
+    audio: '/audio/sarvamangala.opus',
+    category: 'slokas',
+    text: `Sarva mangala mangalye Sivey Sarvartha 
+    Sadhike Saranye triyambake gauri narayani
+
+namostuthey`
   },
   {
     name: 'Tulasi Sloka',
@@ -87,7 +106,7 @@ laala bhosi joola paadedha nidhurabo gadhara ||Haayi||`
   },
   {
     name: 'Annamacharya Keerthana',
-    audio: ['/audio/vedukondama.opus','/audio/aamati.opus','/audio/vaddi.opus'],
+    audio: ['/audio/vedukondama.opus','/audio/aamati.opus','/audio/vaddi.opus','/audio/yelami.opus'],
     category: 'songs',
     text: `🎵 Annamacharya Keerthanalu:
 
@@ -101,7 +120,11 @@ Thomali palypalavaade dhuritha dhurude vaadu ||vedu||
 
 Charanam2:
 vaddi kaasula vaadey vana janabhoodey vaadu ||2||
-Puttu godraallaku biddanichey Govindhudey  ||vedu||`
+Puttu godraallaku biddanichey Govindhudey  ||vedu||
+
+Charanam3:
+yelami karina vardlichey devudey vaadu ||2||
+Alamelmanga venkatadri nadhudey vaadu ||vedu||`
   },
   
 
@@ -139,6 +162,14 @@ Sanedapa - ma. Sane - Sanedapa - Magaresa.`
     audio: '/audio/swaram5.opus',
     category: 'swaras',
     text: `⑤ Additional Sarali Swaras`
+  },
+  {
+    name: 'Sarali Swaras - 6',
+    audio: '/audio/swar6.opus',
+    category: 'swaras',
+    text: `⑤ Saregama-pamadapa-Saregama-padenesa
+
+Saredapa-Mapagama - Sanedapa-Magaresa`
   },
 ];
 

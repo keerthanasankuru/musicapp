@@ -30,7 +30,7 @@ const AllAudiosPage = () => {
                       item.audio.map((src, index) => (
                         <div key={index} style={{ margin: '5px 0' }}>
                           <p style={{ marginBottom: '5px', fontSize: '14px', color: '#555' }}>
-                            {['Pallavi', 'Charanam 1', 'Charanam 2'][index] || `Part ${index + 1}`}
+                            {['Pallavi', 'Charanam 1', 'Charanam 2', 'Charanam 3'][index] || `Charanam ${index + 1}`}
                           </p>
                           <audio controls>
                             <source src={src} type="audio/ogg" />
